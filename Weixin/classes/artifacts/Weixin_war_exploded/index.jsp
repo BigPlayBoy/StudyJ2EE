@@ -59,6 +59,7 @@
     <a href="02/2.6/addCookie.jsp?name=cuicuicui">向电脑写入Cookie</a><br>
     <a href="02/2.6/readCookie.jsp">读取Cookie</a><br>
     <a href="02/2.6/cnCookie.jsp">写入、读取包含中文内容的Cookie</a><br>
+    <a href="02/2.6/shop.jsp">Session 购物车</a><br>
 
 
 </div>
