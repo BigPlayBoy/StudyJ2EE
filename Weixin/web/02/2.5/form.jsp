@@ -13,7 +13,7 @@
 <body>
 
 表单提交页面
-<form id="login" method="post" action="jsp-forward.jsp" >
+<form id="login" method="post" action="aa">
 
     <input type="text" name="username">
     <input type="submit" value="login">
