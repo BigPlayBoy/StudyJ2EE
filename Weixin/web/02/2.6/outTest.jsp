@@ -26,10 +26,10 @@
     //注册成功
     Class.forName(driver);
     //获取数据库连接
-    Connection connection = DriverManager.getConnection(url, user, pass);
+    Connection conn = DriverManager.getConnection(url, user, pass);
 
     //创建Statement对象
-    Statement statement = connection.createStatement();
+    Statement statement = conn.createStatement();
     //执行查询
     ResultSet resultSet = statement.executeQuery("select * from news_inf");
 %>
