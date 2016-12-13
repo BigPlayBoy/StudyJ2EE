@@ -3,55 +3,18 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
-
     <servlet>
-        <servlet-name>firstServlet</servlet-name>
+        <servlet-name>first</servlet-name>
         <servlet-class>lee.FirstServlet</servlet-class>
-
-        <servlet-name>config</servlet-name>
-        <jsp-file>/configTest2.jsp</jsp-file>
-        <init-param>
-            <param-name>name</param-name>
-            <param-value>crazit.org</param-value>
-        </init-param>
-        <init-param>
-            <param-name>age</param-name>
-            <param-value>22</param-value>
-        </init-param>
     </servlet>
     <servlet-mapping>
-        <servlet-name>firstServlet</servlet-name>
+        <servlet-name>first</servlet-name>
         <url-pattern>/aa</url-pattern>
-
-        <servlet-name>config</servlet-name>
-        <url-pattern>/config</url-pattern>
-
     </servlet-mapping>
 
-    <!--配置第一个参数driver-->
-    <context-param>
-        <param-name>driver</param-name>
-        <param-value>com.mysql.jdbc.Driver</param-value>
-    </context-param>
-    <!--配置第一个参数url-->
-    <context-param>
-        <param-name>url</param-name>
-        <param-value>jdbc:mysql://localhost:3306/javaee</param-value>
-    </context-param>
-    <!--配置第一个参数user-->
-    <context-param>
-        <param-name>user</param-name>
-        <param-value>root</param-value>
-    </context-param>
-    <!--配置第一个参数pass-->
-    <context-param>
-        <param-name>pass</param-name>
-        <param-value>123456</param-value>
-    </context-param>
-
     <welcome-file-list>
-        <welcome-file>index.html</welcome-file>
         <welcome-file>index.jsp</welcome-file>
+        <welcome-file>index.html</welcome-file>
         <welcome-file>index.htm</welcome-file>
     </welcome-file-list>
 </web-app>

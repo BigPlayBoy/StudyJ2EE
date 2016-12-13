@@ -11,7 +11,7 @@
     <title>收集参数的表单页</title>
 </head>
 <body>
-<form id="form" method="get" action="request3.jsp">
+<form id="form" method="get" action="/aa">
     用户名：<input type="text" name="name"><br>
     性别：男<input type="radio" name="gender" value="男">女：<input type="radio" name="gender" value="女"><hr/>
     喜欢的颜色：<br>

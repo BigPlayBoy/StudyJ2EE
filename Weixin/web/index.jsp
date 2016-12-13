@@ -14,7 +14,8 @@
             width: auto;
             display: block;
         }
-        div{
+
+        div {
             width: 200px;
             float: left;
         }
@@ -34,7 +35,7 @@
     <a href="02/scriptlet.jsp">小脚本</a><br>
     <a href="02/staticinclude.jsp">小脚本</a><br>
     <a href="02/2.5/jsp-forward.jsp">forward指令</a><br>
-    <a href="moban1712/index.html">模板</a><br>
+    <%--<a href="moban1712/index.html">模板</a><br>--%>
     <a href="02/2.5/form.jsp">提交</a><br>
     <a href="02/2.5/jsp-include.jsp">jsp-include测试</a><br>
     <a href="02/2.5/jsp-include2.jsp">jsp-include测试2</a><br>
@@ -54,13 +55,13 @@
     <a href="02/2.6/request2.jsp">GET测试</a><br>
     <a href="02/2.6/draw.jsp">取钱的表单页</a><br>
     <a href="02/2.6/img.jsp">生成图片-response对象学习---运行失败</a><br>
-<img src="02/2.6/img.jsp">
+    <img src="02/2.6/img.jsp">
     <a href="02/2.6/doRedirect.jsp">重定向学习</a><br>
     <a href="02/2.6/addCookie.jsp?name=cuicuicui">向电脑写入Cookie</a><br>
     <a href="02/2.6/readCookie.jsp">读取Cookie</a><br>
     <a href="02/2.6/cnCookie.jsp">写入、读取包含中文内容的Cookie</a><br>
     <a href="02/2.6/shop.jsp">Session 购物车</a><br>
-
+    <a href="aa">servlet</a>
 
 </div>
 </body>
